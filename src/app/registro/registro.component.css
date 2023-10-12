@@ -1,0 +1,53 @@
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+/* Estilos para campos requeridos válidos */
+input:required:valid {
+  border: 2px solid green;
+}
+
+/* Estilos para campos requeridos no válidos */
+input:required:invalid {
+  border: 2px solid red;
+}
+
+/* Estilos para mensajes de error */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+}
